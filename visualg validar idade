@@ -1,0 +1,33 @@
+Algoritmo "Validar idade"
+// Descrição:
+// 1)Algoritimo;
+// 2)O usuario deve preencher sua idade e em seguida na tela deve mostrar em
+//   Uma mensagem se o usuario é menor de idade ou maior de idade.
+Var
+// Seção de Declarações das variaveis
+ idadeValida: inteiro
+//---------------------------------------------------------------
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+//
+//Usuario deve informar idade atual
+escreval("Digite sua Idade: ")
+leia(idadeValida)
+escreval("__________________________")
+escreval("")
+
+//Compara a idade do Usuario sendo maior de idade
+se (idadeValida >= 18) entao
+ escreval("Sua idade atual é ",idadeValida," Anos.")
+ escreva("Você já é MAIOR de idade.")
+ escreval("")
+
+//Compara a idade do Usuario sendo menor de idade
+senão
+ escreval("Sua idade atual é ",idadeValida," Anos.")
+ escreva("Você é MENOR de idade.")
+ escreval("")
+FIMSE
+
+Fimalgoritmo
