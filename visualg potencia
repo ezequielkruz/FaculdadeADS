@@ -1,0 +1,65 @@
+Algoritmo "calcular a potenciação"
+// Disciplina:[Linguagem e Logica de Programação]
+// Descrição: Parte 02
+// Calculo de "r=x" elevado a "y", sendo y numero inteiro e positivo
+//
+Var
+// Seção de Declarações das variaveis
+y, potencia, x, z:inteiro
+//--------------------------------------------------------------
+Inicio
+//--------------------------------------------------------------
+// Primeiro escreve:
+// base => "x" e expoente => "y"
+escreva(" Digite y (Elevada Potencia): ")
+leia(y)
+escreval("")
+escreva(" Digite x (Valor Elevado): ")
+leia(x)
+escreval("")
+//--------------------------------------------------------------
+//
+//Utilizo a variavel "z" para guardar o valor de "y",
+// para depois conseguir fazer " z:= z*x  "
+//como se fosse " y*y ", eu utilizo a variavel " z "
+//do que " y " para que a operação ocorra assim EXEMPLO:
+// "x" = 2
+// "y" = 3
+//--------------------------------------------------------------
+//
+z:= 1
+para potencia de 1 ate x faca
+//
+//==============================================================
+//EXEMPLO 1:
+//--------------------------------------------------------------
+//para potencia de 1 ate 3 faz:
+// "z" := "1"
+// "z" = "1*2"
+// "z" : = "2"
+//==============================================================
+//EXEMPLO 2:
+//--------------------------------------------------------------
+//para potencia de 2 ate 3 faz:
+// "z" := "2"
+// "z" = "2*2"
+// "z" : = "4"
+//==============================================================
+//EXEMPLO 3:
+//--------------------------------------------------------------
+//para potencia de 3 ate 3 faz:
+// "z" := "4"
+// "z" = "4*2"
+// "z" : = "8"
+//==============================================================
+// resultado de "2^3" = "8"
+//==============================================================
+// resultado de "9^2 = "81 "
+//==============================================================
+// resultado de "2^9 = "512"
+//==============================================================
+//
+z:= z*y
+fimpara
+escreva("Resultado P = ", z,".")
+fimalgoritmo
